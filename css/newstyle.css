@@ -1,0 +1,39 @@
+.bottom-button {
+  width: 100%;
+  border-style: none;
+}
+
+.bottom-button:hover {
+  border-style: none;
+  text-decoration: none;
+  color: #fff;
+  box-sizing: border-box;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.MixtilesMenu .menu-button {
+  width: 35px;
+}
+
+.top-bar-container .top-bar .logo img.dark {
+  height: 16px;
+}
+
+.elegant.desktop .style-paper {
+  border-left: 1px solid rgba(0, 0, 0, 0.2);
+  height: calc(100% - 72px);
+  top: 71px;
+  box-sizing: border-box;
+  z-index: 2;
+}
+
+@media (min-width: 1024px) {
+  .elegant.desktop .style-paper {
+    width: 362px;
+  }
+}
+
+.elegant.desktop .style-paper {
+  position: absolute;
+  left: calc(100vw - 362px);
+}
